@@ -58,4 +58,5 @@ Para executar o pipeline e as análises, você precisará do Python e das biblio
 
 ### Estrutura de Arquivos
 
-Certifique-se de que os arquivos de dados (não inclusos neste README) estejam presentes na estrutura de pastas esperada pelo notebook, conforme as chamadas de `pd.read_csv` na Célula 2 e Célula 4:
+- Certifique-se de que os arquivos de dados (não inclusos neste README) estejam presentes na estrutura de pastas esperada pelo notebook, conforme as chamadas de `pd.read_csv` na Célula 2 e Célula 4:
+- **OBS:** Os dados de sentimento e preço do bitcoin podem ser baixado através desse link [Dados sentimento e preço](https://drive.google.com/drive/folders/1chP4z_y3jJ0Jwb5B4yvoP-sOw-Osj9IU?usp=sharing).
