@@ -25,7 +25,7 @@ O backtest *out-of-sample* (20%) foi realizado em um período de **Bear Market**
 * **Gestão de Risco (Sharpe Ratio):** O Sharpe Ratio de **2,64** é considerado excepcional, indicando que os retornos foram muito superiores ao risco assumido, ao contrário dos *benchmarks*.
 * **Proteção de Capital (Max Drawdown):** O modelo reduziu a perda máxima (Drawdown) para **-14,03%**, menos da metade do Drawdown de ambos os *benchmarks* (aproximadamente $-27\%$).
 
-### 🧠 Valor da Análise de Sentimento (Alpha Isolado)
+###  Valor da Análise de Sentimento (Alpha Isolado)
 
 A comparação direta demonstra que o sentimento foi o fator decisivo para a geração de Alpha e para a gestão de risco.
 
@@ -47,7 +47,7 @@ A comparação direta demonstra que o sentimento foi o fator decisivo para a ger
     * A **Padronização (`StandardScaler`)** é aplicada apenas nos dados de treino.
     * A técnica de **`Sample Weights`** foi aplicada durante o treinamento do XGBoost para lidar com o desbalanceamento natural da variável *target*.
 
-## 🤝 Como Reproduzir o Projeto
+##  Como Reproduzir o Projeto
 
 Para executar o pipeline e as análises, você precisará do Python e das bibliotecas listadas abaixo.
 
